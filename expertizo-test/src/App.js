@@ -85,7 +85,7 @@ function App() {
           <h3>
             Max Score:{" "}
             {calculateWidth(
-              questions.length - i + correctAnswers,
+              (questions.length - (i+1)) + correctAnswers,
               questions.length
             )}
             %
