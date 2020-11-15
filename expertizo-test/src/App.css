@@ -1,0 +1,38 @@
+.answer-button-div {
+  min-width: 200px;
+}
+
+.answer-button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.options {
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.unchecked {
+  color: gray;
+}
+
+.selected {
+  color: white;
+  background: black;
+}
+
+.score {
+  position: absolute;
+  display: flex;
+  bottom: 26px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0px;
+}
